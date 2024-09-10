@@ -4,7 +4,7 @@ layout: default
 
 I am currently a PhD student of Cynthia Dwork in Harvard's [Theory of Computation](https://toc.seas.harvard.edu) group. I am broadly interested in theoretical computer science, with a focus on differential privacy and algorithmic fairness.
 
-In 2021, I graduated _summa cum laude_ (top 5% of class) from Harvard College with an AB in Computer Science and Mathematics and an SM in Computer Science. I was on the [competitive programming team](https://cphof.org/profile/codeforces:pbt17).
+In 2021, I graduated _summa cum laude_ from Harvard College with an AB in Computer Science and Mathematics, a secondary in Statistics, and an SM in Computer Science. I was on the [competitive programming team](https://cphof.org/profile/codeforces:pbt17).
 
 I grew up in Cary, North Carolina and [play the piano](https://youtu.be/u_9iX6jMtzU) in my free time.
 
@@ -26,8 +26,8 @@ I grew up in Cary, North Carolina and [play the piano](https://youtu.be/u_9iX6jM
     Abiy Tasissa, Pranay Tankala, and Demba Ba**\
     Statistical Signal Processing Workshop (SSP), 2021
 
-\* Alphabetical Order\
-** Contribution-Based Order
+<span style="font-size:0.75em;">\* Alphabetical Order</span>\
+<span style="font-size:0.75em;">** Contribution-Based Order</span>
 
 # Contact
 
