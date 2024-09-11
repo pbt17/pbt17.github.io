@@ -6,7 +6,7 @@ I am currently a PhD student of [Cynthia Dwork](https://dwork.seas.harvard.edu) 
 
 In 2021, I graduated _summa cum laude_ from Harvard College with an AB in Computer Science and Mathematics, a secondary in Statistics, and an SM in Computer Science. I was on the [competitive programming team](https://cphof.org/profile/codeforces:pbt17).
 
-I grew up in Cary, North Carolina and [play the piano](https://youtu.be/u_9iX6jMtzU) in my free time.
+I grew up in Cary, North Carolina and attended [Cary Academy](https://www.caryacademy.org). In my free time, I enjoy [playing the piano](https://youtu.be/u_9iX6jMtzU).
 
 # Research
 
