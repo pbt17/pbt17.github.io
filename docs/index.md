@@ -31,4 +31,6 @@ I grew up in Cary, North Carolina and attended [Cary Academy](https://www.caryac
 
 # Contact
 
-firstname underscore lastname at g dot harvard dot edu
+Email: firstname underscore lastname at g dot harvard dot edu
+
+Some official websites refer to me by my full name, Pranay Bennett Tankala.
