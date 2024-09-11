@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I am currently a PhD student of Cynthia Dwork in Harvard's [Theory of Computation](https://toc.seas.harvard.edu) group. I am broadly interested in theoretical computer science, with a focus on differential privacy and algorithmic fairness.
+I am currently a PhD student of [Cynthia Dwork](https://dwork.seas.harvard.edu) in Harvard's [Theory of Computation](https://toc.seas.harvard.edu) group. I am broadly interested in theoretical computer science, with a focus on differential privacy and algorithmic fairness.
 
 In 2021, I graduated _summa cum laude_ from Harvard College with an AB in Computer Science and Mathematics, a secondary in Statistics, and an SM in Computer Science. I was on the [competitive programming team](https://cphof.org/profile/codeforces:pbt17).
 
