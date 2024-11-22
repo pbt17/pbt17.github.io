@@ -10,8 +10,12 @@ I grew up in Cary, North Carolina and attended [Cary Academy](https://www.caryac
 
 # Research
 
+[Differentially Private Learning Beyond the Classical Dimensionality Regime](https://arxiv.org/abs/2411.13682)\
+    Cynthia Dwork, Pranay Tankala, Linjun Zhang*\
+    Preprint, 2024
+
 [From Pseudorandomness to Multi-Group Fairness and Back](https://proceedings.mlr.press/v195/dwork23a.html)\
-    Cynthia Dwork, Daniel Lee, Huijia Lin, Pranay Tankala* \
+    Cynthia Dwork, Daniel Lee, Huijia Lin, Pranay Tankala*\
     Conference on Learning Theory (COLT), 2023
 
 [Privately Estimating a Gaussian: Efficient, Robust, and Optimal](https://doi.org/10.1145/3564246.3585194)\
