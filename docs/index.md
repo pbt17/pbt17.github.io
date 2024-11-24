@@ -14,19 +14,19 @@ I grew up in Cary, North Carolina and attended [Cary Academy](https://www.caryac
     Cynthia Dwork, Pranay Tankala, Linjun Zhang*\
     Preprint, 2024
 
-[From Pseudorandomness to Multi-Group Fairness and Back](https://proceedings.mlr.press/v195/dwork23a.html)\
+[From Pseudorandomness to Multi-Group Fairness and Back](https://arxiv.org/abs/2301.08837)\
     Cynthia Dwork, Daniel Lee, Huijia Lin, Pranay Tankala*\
     Conference on Learning Theory (COLT), 2023
 
-[Privately Estimating a Gaussian: Efficient, Robust, and Optimal](https://doi.org/10.1145/3564246.3585194)\
+[Privately Estimating a Gaussian: Efficient, Robust, and Optimal](https://arxiv.org/abs/2212.08018)\
     Daniel Alabi, Pravesh Kothari, Pranay Tankala, Prayaag Venkat, Fred Zhang*\
     Symposium on Theory of Computing (STOC), 2023
 
-[K-Deep Simplex: Manifold Learning via Local Dictionaries](https://doi.org/10.1109/TSP.2023.3322820)\
+[K-Deep Simplex: Manifold Learning via Local Dictionaries](https://arxiv.org/abs/2012.02134)\
     Abiy Tasissa, Pranay Tankala, James Murphy, Demba Ba**\
     Transactions on Signal Processing (TSP), 2023
 
-[Weighed ℓ1 on the Simplex: Compressive Sensing Meets Locality](https://doi.org/10.1109/SSP49050.2021.9513828)\
+[Weighed ℓ1 on the Simplex: Compressive Sensing Meets Locality](https://arxiv.org/abs/2104.13894)\
     Abiy Tasissa, Pranay Tankala, and Demba Ba**\
     Statistical Signal Processing Workshop (SSP), 2021
 
