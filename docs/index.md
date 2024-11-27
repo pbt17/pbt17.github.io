@@ -14,6 +14,10 @@ I grew up in Cary, North Carolina and attended [Cary Academy](https://www.caryac
     Cynthia Dwork, Pranay Tankala, Linjun Zhang*\
     Preprint, 2024
 
+[From Fairness to Infinity: Outcome-Indistinguishable (Omni)Prediction in Evolving Graphs](https://arxiv.org/abs/2411.17582)\
+    Cynthia Dwork, Chris Hays, Nicole Immorlica, Juan Perdomo, Pranay Tankala\
+    Preprint, 2024
+
 [From Pseudorandomness to Multi-Group Fairness and Back](https://arxiv.org/abs/2301.08837)\
     Cynthia Dwork, Daniel Lee, Huijia Lin, Pranay Tankala*\
     Conference on Learning Theory (COLT), 2023
