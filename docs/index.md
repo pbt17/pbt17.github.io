@@ -15,7 +15,7 @@ I grew up in Cary, North Carolina and attended [Cary Academy](https://www.caryac
     Preprint, 2024
 
 [From Fairness to Infinity: Outcome-Indistinguishable (Omni)Prediction in Evolving Graphs](https://arxiv.org/abs/2411.17582)\
-    Cynthia Dwork, Chris Hays, Nicole Immorlica, Juan Perdomo, Pranay Tankala\
+    Cynthia Dwork, Chris Hays, Nicole Immorlica, Juan C. Perdomo, Pranay Tankala*\
     Preprint, 2024
 
 [From Pseudorandomness to Multi-Group Fairness and Back](https://arxiv.org/abs/2301.08837)\
@@ -23,11 +23,11 @@ I grew up in Cary, North Carolina and attended [Cary Academy](https://www.caryac
     Conference on Learning Theory (COLT), 2023
 
 [Privately Estimating a Gaussian: Efficient, Robust, and Optimal](https://arxiv.org/abs/2212.08018)\
-    Daniel Alabi, Pravesh Kothari, Pranay Tankala, Prayaag Venkat, Fred Zhang*\
+    Daniel Alabi, Pravesh K. Kothari, Pranay Tankala, Prayaag Venkat, Fred Zhang*\
     Symposium on Theory of Computing (STOC), 2023
 
 [K-Deep Simplex: Manifold Learning via Local Dictionaries](https://arxiv.org/abs/2012.02134)\
-    Abiy Tasissa, Pranay Tankala, James Murphy, Demba Ba**\
+    Abiy Tasissa, Pranay Tankala, James M. Murphy, Demba Ba**\
     Transactions on Signal Processing (TSP), 2023
 
 [Weighed ℓ1 on the Simplex: Compressive Sensing Meets Locality](https://arxiv.org/abs/2104.13894)\
