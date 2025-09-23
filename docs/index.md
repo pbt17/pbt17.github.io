@@ -8,39 +8,39 @@ I graduated _summa cum laude_ from Harvard College in 2021 with an AB in Compute
 
 I grew up in Cary, North Carolina and attended [Cary Academy](https://www.caryacademy.org). In my free time, I enjoy [playing the piano](https://youtu.be/u_9iX6jMtzU).
 
-# Research
+## Research
+
+[Supersimulators](https://arxiv.org/abs/2509.17994) (preprint)\
+    with Cynthia Dwork
 
 [Differentially Private Learning Beyond the Classical Dimensionality Regime](https://arxiv.org/abs/2411.13682)\
-    Cynthia Dwork, Pranay Tankala, Linjun Zhang\*\
+    with Cynthia Dwork, Linjun Zhang\
     **Theory of Cryptography Conference (TCC), 2025**\
     Non-archival presentations:\
     *Theory and Practice of Differential Privacy (TPDP), 2025 -- Oral Presentation*\
     *Foundations of Responsible Computing (FORC), 2025 -- Highlights Track*
 
 [From Fairness to Infinity: Outcome-Indistinguishable (Omni)Prediction in Evolving Graphs](https://arxiv.org/abs/2411.17582)\
-    Cynthia Dwork, Chris Hays, Nicole Immorlica, Juan Perdomo, Pranay Tankala\*\
+    with Cynthia Dwork, Chris Hays, Nicole Immorlica, Juan Perdomo\
     **Conference on Learning Theory (COLT), 2025**
 
 [From Pseudorandomness to Multi-Group Fairness and Back](https://arxiv.org/abs/2301.08837)\
-    Cynthia Dwork, Daniel Lee, Huijia Lin, Pranay Tankala\*\
+    with Cynthia Dwork, Daniel Lee, Huijia Lin\
     **Conference on Learning Theory (COLT), 2023**
 
 [Privately Estimating a Gaussian: Efficient, Robust, and Optimal](https://arxiv.org/abs/2212.08018)\
-    Daniel Alabi, Pravesh Kothari, Pranay Tankala, Prayaag Venkat, Fred Zhang\*\
+    with Daniel Alabi, Pravesh Kothari, Prayaag Venkat, Fred Zhang\
     **Symposium on Theory of Computing (STOC), 2023**
 
 [K-Deep Simplex: Manifold Learning via Local Dictionaries](https://arxiv.org/abs/2012.02134)\
-    Abiy Tasissa, Pranay Tankala, James Murphy, Demba Ba\*\*\
+    with Abiy Tasissa, James Murphy, Demba Ba\
     **Transactions on Signal Processing (TSP), 2023**
 
 [Weighed ℓ1 on the Simplex: Compressive Sensing Meets Locality](https://arxiv.org/abs/2104.13894)\
-    Abiy Tasissa, Pranay Tankala, Demba Ba\*\*\
+    with Abiy Tasissa, Demba Ba\
     **Statistical Signal Processing Workshop (SSP), 2021**
 
-<span style="font-size:0.75em;">\* Alphabetical Order</span>\
-<span style="font-size:0.75em;">\*\* Contribution-Based Order</span>
-
-# Contact
+## Contact
 
 Email: firstname underscore lastname at g dot harvard dot edu
 
