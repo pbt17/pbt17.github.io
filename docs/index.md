@@ -19,7 +19,7 @@ I grew up in Cary, North Carolina and attended [Cary Academy](https://www.caryac
     *Preprint, 2025*
 
 Efficient Calibration for Decision Making\
-    with Parikshit Gopalan, Konstantinos Stavropoulos, and Kunal Talwar
+    with Parikshit Gopalan, Konstantinos Stavropoulos, and Kunal Talwar\
     *Preprint, 2025*
 
 [Differentially Private Learning Beyond the Classical Dimensionality Regime](https://arxiv.org/pdf/2411.13682)\
