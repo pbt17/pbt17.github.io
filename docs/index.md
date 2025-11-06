@@ -10,33 +10,42 @@ I grew up in Cary, North Carolina and attended [Cary Academy](https://www.caryac
 
 ## Research
 
-[Supersimulators](https://arxiv.org/abs/2509.17994) (preprint)\
-    with Cynthia Dwork
+[Efficient Testing Implies Structured Symmetry](https://arxiv.org/pdf/2511.03653)\
+    with Cynthia Dwork\
+    *Preprint, 2025*
 
-[Differentially Private Learning Beyond the Classical Dimensionality Regime](https://arxiv.org/abs/2411.13682)\
+[Supersimulators](https://arxiv.org/pdf/2509.17994)\
+    with Cynthia Dwork\
+    *Preprint, 2025*
+
+Efficient Calibration for Decision Making\
+    with Parikshit Gopalan, Konstantinos Stavropoulos, and Kunal Talwar
+    *Preprint, 2025*
+
+[Differentially Private Learning Beyond the Classical Dimensionality Regime](https://arxiv.org/pdf/2411.13682)\
     with Cynthia Dwork and Linjun Zhang\
     **Theory of Cryptography Conference (TCC), 2025**\
     Non-archival presentations:\
     *Theory and Practice of Differential Privacy (TPDP), 2025 -- Oral Presentation*\
     *Foundations of Responsible Computing (FORC), 2025 -- Highlights Track*
 
-[From Fairness to Infinity: Outcome-Indistinguishable (Omni)Prediction in Evolving Graphs](https://arxiv.org/abs/2411.17582)\
+[From Fairness to Infinity: Outcome-Indistinguishable (Omni)Prediction in Evolving Graphs](https://arxiv.org/pdf/2411.17582)\
     with Cynthia Dwork, Chris Hays, Nicole Immorlica, and Juan Perdomo\
     **Conference on Learning Theory (COLT), 2025**
 
-[From Pseudorandomness to Multi-Group Fairness and Back](https://arxiv.org/abs/2301.08837)\
+[From Pseudorandomness to Multi-Group Fairness and Back](https://arxiv.org/pdf/2301.08837)\
     with Cynthia Dwork, Daniel Lee, and Huijia Lin\
     **Conference on Learning Theory (COLT), 2023**
 
-[Privately Estimating a Gaussian: Efficient, Robust, and Optimal](https://arxiv.org/abs/2212.08018)\
+[Privately Estimating a Gaussian: Efficient, Robust, and Optimal](https://arxiv.org/pdf/2212.08018)\
     with Daniel Alabi, Pravesh Kothari, Prayaag Venkat, and Fred Zhang\
     **Symposium on Theory of Computing (STOC), 2023**
 
-[K-Deep Simplex: Manifold Learning via Local Dictionaries](https://arxiv.org/abs/2012.02134)\
+[K-Deep Simplex: Manifold Learning via Local Dictionaries](https://arxiv.org/pdf/2012.02134)\
     with Abiy Tasissa, James Murphy, and Demba Ba\
     **Transactions on Signal Processing (TSP), 2023**
 
-[Weighed ℓ1 on the Simplex: Compressive Sensing Meets Locality](https://arxiv.org/abs/2104.13894)\
+[Weighed ℓ1 on the Simplex: Compressive Sensing Meets Locality](https://arxiv.org/pdf/2104.13894)\
     with Abiy Tasissa and Demba Ba\
     **Statistical Signal Processing Workshop (SSP), 2021**
 
