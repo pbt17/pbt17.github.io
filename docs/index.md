@@ -18,7 +18,7 @@ I grew up in Cary, North Carolina and attended [Cary Academy](https://www.caryac
     with Cynthia Dwork\
     *Preprint, 2025*
 
-Efficient Calibration for Decision Making\
+[Efficient Calibration for Decision Making](https://arxiv.org/pdf/2511.13699)\
     with Parikshit Gopalan, Konstantinos Stavropoulos, and Kunal Talwar\
     *Preprint, 2025*
 
