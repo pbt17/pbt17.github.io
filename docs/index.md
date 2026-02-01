@@ -20,7 +20,7 @@ I grew up in Cary, North Carolina and attended [Cary Academy](https://www.caryac
 
 [Efficient Calibration for Decision Making](https://arxiv.org/pdf/2511.13699)\
     with Parikshit Gopalan, Konstantinos Stavropoulos, and Kunal Talwar\
-    *Preprint, 2025*
+    **Symposium on Theory of Computing (STOC), 2026**
 
 [Differentially Private Learning Beyond the Classical Dimensionality Regime](https://arxiv.org/pdf/2411.13682)\
     with Cynthia Dwork and Linjun Zhang\
