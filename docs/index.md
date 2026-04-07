@@ -10,13 +10,9 @@ I grew up in Cary, North Carolina and attended [Cary Academy](https://www.caryac
 
 ## Research
 
-[Efficient Testing Implies Structured Symmetry](https://arxiv.org/pdf/2511.03653)\
+[Efficient and Private Property Testing via Indistinguishability](https://arxiv.org/pdf/2511.03653)\
     with Cynthia Dwork\
-    *Preprint, 2025*
-
-[Supersimulators](https://arxiv.org/pdf/2509.17994)\
-    with Cynthia Dwork\
-    *Preprint, 2025*
+    *Preprint, 2026*
 
 [The Importance of Being Smoothly Calibrated](https://arxiv.org/pdf/2603.16015)\
     with Parikshit Gopalan, Konstantinos Stavropoulos, and Kunal Talwar\
