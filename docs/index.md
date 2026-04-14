@@ -10,8 +10,14 @@ I grew up in Cary, North Carolina and attended [Cary Academy](https://www.caryac
 
 ## Research
 
+
 [Efficient and Private Property Testing via Indistinguishability](https://arxiv.org/pdf/2511.03653)\
     with Cynthia Dwork\
+    *Preprint, 2026*
+
+
+[Differentially Private Verification of Distribution Properties](https://arxiv.org/pdf/2604.10819)\
+    with Elbert Du, Cynthia Dwork, and Linjun Zhang\
     *Preprint, 2026*
 
 [The Importance of Being Smoothly Calibrated](https://arxiv.org/pdf/2603.16015)\
