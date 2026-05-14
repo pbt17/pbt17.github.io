@@ -13,16 +13,16 @@ I grew up in Cary, North Carolina and attended [Cary Academy](https://www.caryac
 
 [Efficient and Private Property Testing via Indistinguishability](https://arxiv.org/pdf/2511.03653)\
     with Cynthia Dwork\
-    *Preprint, 2026*
+    Preprint, 2026
 
 
 [Differentially Private Verification of Distribution Properties](https://arxiv.org/pdf/2604.10819)\
     with Elbert Du, Cynthia Dwork, and Linjun Zhang\
-    *Preprint, 2026*
+    Preprint, 2026
 
 [The Importance of Being Smoothly Calibrated](https://arxiv.org/pdf/2603.16015)\
     with Parikshit Gopalan, Konstantinos Stavropoulos, and Kunal Talwar\
-    **Foundations of Responsible Computing (FORC), 2026**
+    **Foundations of Responsible Computing (FORC), 2026 ---** ***Best Paper***
 
 [Efficient Calibration for Decision Making](https://arxiv.org/pdf/2511.13699)\
     with Parikshit Gopalan, Konstantinos Stavropoulos, and Kunal Talwar\
@@ -32,8 +32,8 @@ I grew up in Cary, North Carolina and attended [Cary Academy](https://www.caryac
     with Cynthia Dwork and Linjun Zhang\
     **Theory of Cryptography Conference (TCC), 2025**\
     Non-archival presentations:\
-    *Theory and Practice of Differential Privacy (TPDP), 2025 -- Oral Presentation*\
-    *Foundations of Responsible Computing (FORC), 2025 -- Highlights Track*
+    Theory and Practice of Differential Privacy (TPDP), 2025 --- *Oral Presentation*\
+    Foundations of Responsible Computing (FORC), 2025 --- *Highlights Track*
 
 [From Fairness to Infinity: Outcome-Indistinguishable (Omni)Prediction in Evolving Graphs](https://arxiv.org/pdf/2411.17582)\
     with Cynthia Dwork, Chris Hays, Nicole Immorlica, and Juan Perdomo\
