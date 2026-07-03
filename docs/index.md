@@ -13,20 +13,21 @@ I grew up in Cary, North Carolina and attended [Cary Academy](https://www.caryac
 
 [Efficient and Private Property Testing via Indistinguishability](https://arxiv.org/pdf/2511.03653)\
     with Cynthia Dwork\
-    *Preprint, 2026*
+    **Foundations of Computer Science (FOCS), 2026**
 
-
-[Differentially Private Verification of Distribution Properties](https://arxiv.org/pdf/2604.10819)\
-    with Elbert Du, Cynthia Dwork, and Linjun Zhang\
-    *Preprint, 2026*
+[Efficient Calibration for Decision Making](https://arxiv.org/pdf/2511.13699)\
+    with Parikshit Gopalan, Konstantinos Stavropoulos, and Kunal Talwar\
+    **Symposium on Theory of Computing (STOC), 2026**
 
 [The Importance of Being Smoothly Calibrated](https://arxiv.org/pdf/2603.16015)\
     with Parikshit Gopalan, Konstantinos Stavropoulos, and Kunal Talwar\
     **Foundations of Responsible Computing (FORC), 2026 ★ Best Paper**
 
-[Efficient Calibration for Decision Making](https://arxiv.org/pdf/2511.13699)\
-    with Parikshit Gopalan, Konstantinos Stavropoulos, and Kunal Talwar\
-    **Symposium on Theory of Computing (STOC), 2026**
+[Differentially Private Verification of Distribution Properties](https://arxiv.org/pdf/2604.10819)\
+    with Elbert Du, Cynthia Dwork, and Linjun Zhang\
+    *Preprint, 2026*
+
+---
 
 [Differentially Private Learning Beyond the Classical Dimensionality Regime](https://arxiv.org/pdf/2411.13682)\
     with Cynthia Dwork and Linjun Zhang\
@@ -39,6 +40,8 @@ I grew up in Cary, North Carolina and attended [Cary Academy](https://www.caryac
     with Cynthia Dwork, Chris Hays, Nicole Immorlica, and Juan Perdomo\
     **Conference on Learning Theory (COLT), 2025**
 
+---
+
 [From Pseudorandomness to Multi-Group Fairness and Back](https://arxiv.org/pdf/2301.08837)\
     with Cynthia Dwork, Daniel Lee, and Huijia Lin\
     **Conference on Learning Theory (COLT), 2023**
@@ -50,6 +53,8 @@ I grew up in Cary, North Carolina and attended [Cary Academy](https://www.caryac
 [K-Deep Simplex: Manifold Learning via Local Dictionaries](https://arxiv.org/pdf/2012.02134)\
     with Abiy Tasissa, James Murphy, and Demba Ba\
     **Transactions on Signal Processing (TSP), 2023**
+
+---
 
 [Weighed ℓ1 on the Simplex: Compressive Sensing Meets Locality](https://arxiv.org/pdf/2104.13894)\
     with Abiy Tasissa and Demba Ba\
