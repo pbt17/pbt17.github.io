@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I am currently a PhD student of [Cynthia Dwork](https://dwork.seas.harvard.edu) in Harvard's [Theory of Computation](https://toc.seas.harvard.edu) group, with a focus on differential privacy and algorithmic fairness. I was an intern on Apple's [Machine Learning Research](https://machinelearning.apple.com) team in 2025, working with [Vitaly Feldman](https://vtaly.net), [Parikshit Gopalan](https://parikg.github.io), and [Kunal Talwar](http://kunaltalwar.org).
+I am currently a PhD student of [Cynthia Dwork](https://dwork.seas.harvard.edu) in Harvard's [Theory of Computation](https://toc.seas.harvard.edu) group, with a focus on differential privacy and algorithmic fairness. I was an intern on Apple's [Machine Learning Research](https://machinelearning.apple.com) team in 2025 and 2026, working with [Vitaly Feldman](https://vtaly.net), [Parikshit Gopalan](https://parikg.github.io), and [Kunal Talwar](http://kunaltalwar.org).
 
 I graduated _summa cum laude_ from Harvard College in 2021 with an AB in Computer Science and Mathematics, a secondary in Statistics, and an SM in Computer Science. I was on the [competitive programming team](https://cphof.org/profile/codeforces:pbt17).
 
