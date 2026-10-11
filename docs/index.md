@@ -23,6 +23,10 @@ I grew up in Cary, North Carolina and attended [Cary Academy](https://www.caryac
     with Parikshit Gopalan, Konstantinos Stavropoulos, and Kunal Talwar\
     **Foundations of Responsible Computing (FORC), 2026 ★ Best Paper**
 
+[Multigroup Fairness and Omniprediction: Separations and Equivalences](https://arxiv.org/pdf/2610.07374)\
+    with Sílvia Casauberta, Parikshit Gopalan, Varun Kanade, Omer Reingold, and Konstantinos Stavropoulos\
+    **Neural Information Processing Systems (NeurIPS), 2026**
+
 [Differentially Private Verification of Distribution Properties](https://arxiv.org/pdf/2604.10819)\
     with Elbert Du, Cynthia Dwork, and Linjun Zhang\
     *Preprint, 2026*
