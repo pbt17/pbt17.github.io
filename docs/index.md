@@ -91,7 +91,7 @@ With Sílvia Casacuberta, Parikshit Gopalan, Varun Kanade, Omer Reingold, and Ko
 With Cynthia Dwork, Chris Hays, Nicole Immorlica, and Juan Perdomo  
 *Conference on Learning Theory (COLT) · 2025*
 
-### Other
+### Other Research
 
 #### [K-Deep Simplex: Manifold Learning via Local Dictionaries](https://arxiv.org/pdf/2012.02134)
 

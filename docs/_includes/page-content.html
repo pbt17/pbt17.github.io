@@ -6,9 +6,7 @@ Render the complete research list, grouped by the topics in the Markdown.
   {%- assign section_heading = section | split: '</h2>' | first -%}
   {%- if section_heading contains 'id="research"' -%}
     {%- assign groups = section | split: '<h3' -%}
-    <div class="research-heading">
-      <h2 id="research">Research</h2>
-    </div>
+    <section id="research" class="research" aria-label="Research">
     {{ groups.first | remove_first: section_heading | remove_first: '</h2>' }}
     <div id="paper-list" class="research-topics">
       {%- for group in groups offset:1 -%}
@@ -31,17 +29,18 @@ Render the complete research list, grouped by the topics in the Markdown.
               {%- endif -%}
             {%- endif -%}
             <article class="paper-entry">
-              <h4{{ rendered_publication }}
+              <h3{{ rendered_publication | replace_first: '</h4>', '</h3>' }}
             </article>
           {%- endfor -%}
         {%- endcapture -%}
         <section class="research-topic">
-          <h3{{ group_heading }}</h3>
+          <h2{{ group_heading }}</h2>
           <div class="topic-intro">{{ publications.first | remove_first: group_heading | remove_first: '</h3>' }}</div>
           {{ entries }}
         </section>
       {%- endfor -%}
     </div>
+    </section>
   {%- else -%}
     <h2{{ section }}
   {%- endif -%}
