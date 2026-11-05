@@ -1,0 +1,99 @@
+/* Content is in index.md; design defaults are in _config.yml. */
+:root {
+  --ink: #242b32;
+  --muted: #626970;
+  --accent: #315d7e;
+  --accent-hover: #163d5c;
+  --tint: #eef3f7;
+  --line: #dfe4e8;
+  --paper: #fff;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --body: var(--sans);
+  --heading: var(--body);
+}
+:root[data-accent="forest"] { --accent: #326252; --accent-hover: #194334; --tint: #f0f5f2; }
+:root[data-font="garamond"] { --body: "EB Garamond", Garamond, Georgia, serif; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 20px; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.5 var(--body); -webkit-font-smoothing: antialiased; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); text-decoration: none; }
+a:focus-visible, button:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 2px; }
+.skip-link { position: absolute; top: -80px; left: 16px; background: #fff; padding: 8px 16px; z-index: 10; }
+.skip-link:focus { top: 8px; }
+.site-shell { width: min(980px, calc(100% - 64px)); margin: 30px auto 0; }
+/* Photo and copy share a top edge and bottom edge as one composed profile. */
+.profile { display: grid; grid-template-columns: minmax(0, 1fr) 150px; gap: 28px; align-items: stretch; }
+.profile-copy { min-width: 0; }
+h1 { margin: 0; font: 600 35px/1.12 var(--heading); letter-spacing: -.8px; }
+.affiliation { margin: 5px 0 12px; color: var(--muted); font-size: 14px; line-height: 1.35; }
+.biography p { margin: 0; font-size: 15.5px; line-height: 1.5; }
+.biography p + p { margin-top: 8px; }
+:root[data-font="garamond"] .biography p { font-size: 17px; }
+:root[data-font="garamond"] .affiliation { font-size: 15px; }
+.portrait { display: block; width: 150px; height: 100%; min-height: 0; object-fit: cover; object-position: 50% 40%; border-radius: 3px; }
+.placeholder { border: 1px solid var(--line); background: #f4f5f5; color: #899299; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; }
+.placeholder-mark { font: 400 35px/1 Georgia, serif; letter-spacing: 2px; }
+.placeholder-caption { font: 10px/1.4 var(--sans); }
+.content { min-width: 0; outline: none; }
+.content h2 { font: 600 23px/1.25 var(--heading); margin: 24px 0 14px; letter-spacing: -.3px; }
+.research-heading { display: flex; align-items: center; gap: 12px; border-bottom: 1px solid var(--line); margin-top: 23px; margin-bottom: 15px; padding-bottom: 9px; }
+.research-heading h2 { margin: 0; }
+.paper-view-toggle { border: 1px solid var(--line); border-radius: 4px; padding: 6px 10px; color: var(--accent); background: var(--paper); cursor: pointer; font: 500 11px/1.4 var(--sans); white-space: nowrap; }
+.paper-view-toggle:hover { background: var(--tint); border-color: var(--accent); }
+.paper-view-toggle[hidden] { display: none; }
+.research-topic h3 { margin: 22px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--line); font: 600 17px/1.3 var(--heading); color: var(--ink); }
+.research-topic:first-child h3 { margin-top: 0; }
+.topic-intro { color: #4d565f; font-size: 14px; font-weight: 400; line-height: 1.5; }
+.topic-intro p { margin: 0 0 12px; }
+:root[data-font="garamond"] .topic-intro { font-size: 15.5px; }
+.paper-entry { margin: 0 0 15px; }
+.paper-entry:last-child { margin-bottom: 0; }
+.paper-entry h4 { margin: 0 0 3px; font: 600 16px/1.3 var(--body); letter-spacing: -.05px; }
+.paper-entry p { margin: 0; font-size: 13.5px; line-height: 1.45; color: var(--muted); }
+.paper-entry p + p { margin-top: 5px; font-size: 12.5px; }
+:root[data-font="garamond"] .paper-entry h4 { font-size: 17.5px; }
+:root[data-font="garamond"] .paper-entry p { font-size: 14.5px; }
+.paper-entry em { font-style: normal; color: var(--ink); font-weight: 500; }
+.venue-award { white-space: nowrap; }
+.paper-entry strong { display: inline-block; font: 700 11px/1.4 var(--sans); color: #704b0a; margin-left: 7px; padding: 2px 7px; background: #fff3cd; border: 1px solid #d5ae55; border-radius: 3px; white-space: nowrap; vertical-align: 1px; }
+.paper-entry strong::before { content: "★"; margin-right: 5px; color: #91620e; }
+:root[data-paper-view="selected"] .research-topic h3,
+:root[data-paper-view="selected"] .topic-intro,
+:root[data-paper-view="selected"] .research-topic[data-has-selected="false"],
+:root[data-paper-view="selected"] .paper-entry[data-selected="false"],
+:root[data-paper-view="selected"] .paper-entry p + p { display: none; }
+:root[data-paper-view="selected"] .research-topics { display: grid; gap: 14px; }
+:root[data-paper-view="selected"] .research-topic[data-has-selected="true"] { display: contents; }
+:root[data-paper-view="selected"] .paper-entry { margin: 0; }
+.site-footer { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; border-top: 1px solid var(--line); margin-top: 21px; padding: 12px 0 20px; font: 400 11px/1.4 var(--body); color: var(--muted); }
+:root[data-font="garamond"] .site-footer { font-size: 13px; padding-bottom: 17px; }
+@media (max-width: 700px) {
+  .site-shell { width: calc(100% - 40px); margin-top: 23px; }
+  /* A compact masthead anchors the photo to the page's left edge on phones. */
+  .profile { grid-template-columns: 80px minmax(0, 1fr); column-gap: 14px; row-gap: 12px; align-items: center; }
+  .profile-copy { display: contents; }
+  .identity { grid-column: 2; grid-row: 1; align-self: center; }
+  .portrait { grid-column: 1; grid-row: 1; width: 80px; height: 90px; object-position: 50% 35%; }
+  .biography { grid-column: 1 / -1; grid-row: 2; }
+  h1 { font-size: 31px; }
+  .affiliation { margin-bottom: 0; font-size: 12px; }
+  .biography p { font-size: 15.5px; line-height: 1.5; }
+  .research-heading { margin-top: 22px; }
+}
+@media (max-width: 430px) {
+  .site-shell { width: calc(100% - 32px); margin-top: 20px; }
+  .profile { grid-template-columns: 72px minmax(0, 1fr); column-gap: 12px; row-gap: 10px; }
+  .portrait { width: 72px; height: 82px; }
+  h1 { font-size: 28px; }
+  .research-heading h2 { font-size: 21px; }
+  .paper-view-toggle { font-size: 10px; padding: 6px 8px; }
+  .paper-entry h4 { font-size: 15.5px; }
+  .paper-entry p { font-size: 13px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+@media print {
+  .design-preview, .skip-link, .paper-view-toggle { display: none !important; }
+  .site-shell { width: 100%; margin: 0; }
+  .paper-entry { break-inside: avoid; }
+}

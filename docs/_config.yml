@@ -1,6 +1,27 @@
 title: Pranay Tankala
-logo: /assets/img/logo.png
-description:
-show_downloads: false
-google_analytics:
-theme: jekyll-theme-minimal
+description: Pranay Tankala — Ph.D. Student at Harvard
+url: "https://pbt17.github.io"
+baseurl: ""
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Design defaults. Fonts: garamond or system.
+accent: blue
+font: system
+
+name: Pranay Tankala
+footer_name: Pranay Bennett Tankala
+affiliation: Ph.D. Student · Harvard University
+email: pranay_tankala@g.harvard.edu
+
+# Leave photo_url blank to show the placeholder; leave cv_url blank to omit it.
+photo_url: "/assets/photo.png"
+cv_url: ""
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - screenshots
+

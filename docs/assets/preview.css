@@ -1,0 +1,30 @@
+/* Comparison controls appear only when the URL includes ?preview=1. */
+.design-preview[hidden] { display: none; }
+.design-preview { background: #f6f7f8; border-bottom: 1px solid #e1e4e7; color: #404953; font-family: var(--sans); }
+.preview-inner { max-width: 1020px; margin: auto; padding: 9px 20px; display: flex; gap: 24px; align-items: center; flex-wrap: wrap; }
+.preview-label { margin-right: auto; display: flex; flex-direction: column; line-height: 1.5; }
+.preview-label strong { font-size: 12px; font-weight: 600; }
+.preview-label span { font-size: 11px; color: #6a737c; }
+.design-preview fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+.design-preview legend { font-size: 10px; font-weight: 600; letter-spacing: .05em; margin-bottom: 4px; padding: 0; color: #65707a; }
+.font-choice { display: flex; flex-direction: column; gap: 4px; }
+.font-choice label { font-size: 10px; font-weight: 600; letter-spacing: .05em; color: #65707a; line-height: 1.7; }
+.font-choice select { appearance: auto; min-width: 160px; min-height: 35px; border: 1px solid #dce0e4; border-radius: 5px; background: #fff; color: #25394a; padding: 6px 9px; font: 500 11px/1.3 var(--sans); cursor: pointer; }
+.choice-group { display: flex; gap: 2px; border: 1px solid #dce0e4; padding: 2px; border-radius: 5px; }
+.choice-group button { border: 0; border-radius: 3px; padding: 6px 10px; color: #5b6570; background: transparent; font: 500 11px/1.3 var(--sans); cursor: pointer; min-height: 29px; display: inline-flex; align-items: center; gap: 6px; }
+.choice-group button[aria-pressed="true"] { color: #25394a; background: #fff; box-shadow: 0 1px 3px #1f354414; }
+.choice-group button:hover { color: #182d3d; background: #e9edf0; }
+.swatch { display: inline-block; width: 7px; height: 7px; border-radius: 50%; }
+.swatch.blue { background: #315d7e; }
+.swatch.forest { background: #326252; }
+.clean-preview { color: #5b6570; font-size: 11px; text-decoration: none; white-space: nowrap; margin-left: 3px; }
+@media (max-width: 800px) {
+  .preview-inner { gap: 12px 18px; padding: 12px 22px; }
+  .preview-label { width: 100%; flex-direction: row; justify-content: space-between; }
+  .clean-preview { margin-left: auto; }
+}
+@media (max-width: 430px) {
+  .preview-inner { padding: 12px 18px; gap: 10px 12px; }
+  .choice-group button { padding: 7px; min-height: 32px; }
+  .clean-preview { font-size: 10px; margin-left: 0; }
+}

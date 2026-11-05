@@ -1,0 +1,58 @@
+{%- comment -%}
+Render topics and papers from plain Markdown. Shortlist membership comes from
+selected_papers in index.md front matter; entries are never duplicated.
+{%- endcomment -%}
+{%- assign page_sections = content | split: '<h2' -%}
+{%- for section in page_sections offset:1 -%}
+  {%- assign section_heading = section | split: '</h2>' | first -%}
+  {%- if section_heading contains 'id="research"' -%}
+    {%- assign groups = section | split: '<h3' -%}
+    <div class="research-heading">
+      <h2 id="research">Research</h2>
+      <button type="button" class="paper-view-toggle" aria-controls="paper-list" aria-pressed="false" hidden>Show All Papers</button>
+    </div>
+    {{ groups.first | remove_first: section_heading | remove_first: '</h2>' }}
+    <div id="paper-list" class="research-topics">
+      {%- for group in groups offset:1 -%}
+        {%- assign group_heading = group | split: '</h3>' | first -%}
+        {%- assign publications = group | split: '<h4' -%}
+        {%- assign has_selected = false -%}
+        {%- capture entries -%}
+          {%- for publication in publications offset:1 -%}
+            {%- assign paper_heading = publication | split: '</h4>' | first -%}
+            {%- assign paper_id = paper_heading | split: 'id="' | last | split: '"' | first -%}
+            {%- assign selected = false -%}
+            {%- if page.selected_papers contains paper_id -%}
+              {%- assign selected = true -%}
+              {%- assign has_selected = true -%}
+            {%- endif -%}
+            {%- assign rendered_publication = publication -%}
+            {%- comment -%}Keep a venue's acronym, year, and award together without extra Markdown markup.{%- endcomment -%}
+            {%- if publication contains '</em> <strong>' -%}
+              {%- assign award_parts = publication | split: '</em> <strong>' -%}
+              {%- assign venue_text = award_parts.first | split: '<em>' | last -%}
+              {%- assign venue_tail = venue_text | split: ' (' | last | prepend: '(' -%}
+              {%- if venue_text contains venue_tail -%}
+                {%- assign venue_name = venue_text | remove: venue_tail | strip -%}
+                {%- assign award_text = award_parts.last | split: '</strong>' | first -%}
+                {%- capture original_award -%}<em>{{ venue_text }}</em> <strong>{{ award_text }}</strong>{%- endcapture -%}
+                {%- capture wrapped_award -%}<em>{{ venue_name }}</em> <span class="venue-award"><em>{{ venue_tail }}</em> <strong>{{ award_text }}</strong></span>{%- endcapture -%}
+                {%- assign rendered_publication = publication | replace_first: original_award, wrapped_award -%}
+              {%- endif -%}
+            {%- endif -%}
+            <article class="paper-entry" data-selected="{{ selected }}">
+              <h4{{ rendered_publication }}
+            </article>
+          {%- endfor -%}
+        {%- endcapture -%}
+        <section class="research-topic" data-has-selected="{{ has_selected }}">
+          <h3{{ group_heading }}</h3>
+          <div class="topic-intro">{{ publications.first | remove_first: group_heading | remove_first: '</h3>' }}</div>
+          {{ entries }}
+        </section>
+      {%- endfor -%}
+    </div>
+  {%- else -%}
+    <h2{{ section }}
+  {%- endif -%}
+{%- endfor -%}
