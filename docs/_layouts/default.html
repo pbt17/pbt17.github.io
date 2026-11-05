@@ -34,7 +34,13 @@
       <div class="profile-copy">
         <div class="identity">
           <h1>{{ site.name | escape }}</h1>
-          <p class="affiliation">{{ site.affiliation | escape }}{% if site.cv_url != "" %} · <a href="{{ site.cv_url | relative_url }}">CV</a>{% endif %}</p>
+          <p class="affiliation">
+            <span>{{ site.affiliation | escape }}</span>
+            <span class="profile-links">
+              {% if site.cv_url != "" %}<span aria-hidden="true">·</span> <a href="{{ site.cv_url | relative_url }}" aria-label="CV (PDF)">CV</a>{% endif %}
+              <span aria-hidden="true">·</span> <a href="mailto:{{ site.email | escape }}">Email</a>
+            </span>
+          </p>
         </div>
         <div class="biography">{{ content | split: '<h2' | first }}</div>
       </div>

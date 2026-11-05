@@ -12,12 +12,12 @@ font: system
 
 name: Pranay Tankala
 footer_name: Pranay Bennett Tankala
-affiliation: Ph.D. Student · Harvard University
+affiliation: Ph.D. Student at Harvard
 email: pranay_tankala@g.harvard.edu
 
 # Leave photo_url blank to show the placeholder; leave cv_url blank to omit it.
 photo_url: "/assets/photo.png"
-cv_url: ""
+cv_url: "/assets/cv.pdf"
 
 exclude:
   - README.md
