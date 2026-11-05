@@ -14,7 +14,8 @@
 :root[data-accent="forest"] { --accent: #326252; --accent-hover: #194334; --tint: #f0f5f2; }
 :root[data-font="garamond"] { --body: "EB Garamond", Garamond, Georgia, serif; }
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 20px; }
+/* Keep phone rotation from inflating text; normal browser zoom still works. */
+html { scroll-behavior: smooth; scroll-padding-top: 20px; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.5 var(--body); -webkit-font-smoothing: antialiased; }
 a { color: var(--accent); text-decoration: none; }
 a:hover { color: var(--accent-hover); text-decoration: none; }
@@ -22,8 +23,8 @@ a:focus-visible, button:focus-visible, select:focus-visible { outline: 2px solid
 .skip-link { position: absolute; top: -80px; left: 16px; background: #fff; padding: 8px 16px; z-index: 10; }
 .skip-link:focus { top: 8px; }
 .site-shell { width: min(980px, calc(100% - 64px)); margin: 30px auto 0; }
-/* Photo and copy share a top edge and bottom edge as one composed profile. */
-.profile { display: grid; grid-template-columns: minmax(0, 1fr) 150px; gap: 28px; align-items: stretch; }
+/* Anchor the portrait to the name without stretching it as the bio wraps. */
+.profile { display: grid; grid-template-columns: minmax(0, 1fr) 150px; gap: 28px; align-items: start; }
 .profile-copy { min-width: 0; }
 h1 { margin: 0; font: 600 35px/1.12 var(--heading); letter-spacing: -.8px; }
 .affiliation { margin: 5px 0 12px; color: var(--muted); font-size: 14px; line-height: 1.35; }
@@ -31,7 +32,7 @@ h1 { margin: 0; font: 600 35px/1.12 var(--heading); letter-spacing: -.8px; }
 .biography p + p { margin-top: 8px; }
 :root[data-font="garamond"] .biography p { font-size: 17px; }
 :root[data-font="garamond"] .affiliation { font-size: 15px; }
-.portrait { display: block; width: 150px; height: 100%; min-height: 0; object-fit: cover; object-position: 50% 40%; border-radius: 3px; }
+.portrait { display: block; width: 150px; height: 190px; min-height: 0; object-fit: cover; object-position: 50% 40%; border-radius: 3px; }
 .placeholder { border: 1px solid var(--line); background: #f4f5f5; color: #899299; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; }
 .placeholder-mark { font: 400 35px/1 Georgia, serif; letter-spacing: 2px; }
 .placeholder-caption { font: 10px/1.4 var(--sans); }
