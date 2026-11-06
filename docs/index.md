@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I am a Ph.D. student of [Cynthia Dwork](https://dwork.seas.harvard.edu) in Harvard's [Theory of Computation](https://toc.seas.harvard.edu) interested in questions about artificial intelligence related to pseudorandomness, privacy, fairness, and alignment.
+I am a student of [Cynthia Dwork](https://dwork.seas.harvard.edu) in Harvard's [Theory of Computation](https://toc.seas.harvard.edu) group interested in questions about artificial intelligence related to pseudorandomness, privacy, fairness, and alignment.
 I was an intern on Apple's [Machine Learning Research](https://machinelearning.apple.com/)
 team in 2025 and 2026, working with [Parikshit Gopalan](https://parikg.github.io/),
 [Vitaly Feldman](https://vtaly.net/), and [Kunal Talwar](https://kunaltalwar.org/).
