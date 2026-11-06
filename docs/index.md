@@ -69,7 +69,7 @@ With Daniel Alabi, Pravesh Kothari, Prayaag Venkat, and Fred Zhang
 
 ### Fairness and Alignment
 
-As AI becomes increasingly involved in consequential decision-making, it is important to anticipate and navigate its pitfalls in the _fairness_ of its treatment of a diverse user base and the _alignment_ between its behavior and these users' interests.
+As AI becomes increasingly involved in consequential decision-making, it is important to anticipate and navigate its pitfalls in the _fairness_ of its treatment of a diverse user base and the _alignment_ between its behavior and these users' best interests.
 
 #### [Efficient Calibration for Decision Making](https://arxiv.org/pdf/2511.13699)
 
