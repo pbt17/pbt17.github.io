@@ -1,34 +1,14 @@
 <!doctype html>
-<html lang="en" data-accent="{{ site.accent | escape }}" data-font="{{ site.font | escape }}">
+<html lang="en" data-accent="{{ site.accent | escape }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ site.title | escape }}</title>
   <meta name="description" content="{{ site.description | escape }}">
-  <link rel="stylesheet" href="{{ '/assets/fonts/fonts.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/preview.css' | relative_url }}">
-  <script src="{{ '/assets/preview.js' | relative_url }}" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <aside class="design-preview" aria-label="Design preview controls" hidden>
-    <div class="preview-inner">
-      <div class="preview-label"><strong>Design Preview</strong></div>
-      <fieldset><legend>Accent</legend><div class="choice-group">
-        <button type="button" data-setting="accent" data-value="blue" aria-pressed="true"><span class="swatch blue" aria-hidden="true"></span>Blue</button>
-        <button type="button" data-setting="accent" data-value="forest" aria-pressed="false"><span class="swatch forest" aria-hidden="true"></span>Forest</button>
-      </div></fieldset>
-      <div class="font-choice"><label for="font-picker">Font</label>
-        <select id="font-picker" data-setting="font">
-          <option value="system">System Sans</option>
-          <option value="garamond">EB Garamond</option>
-        </select>
-      </div>
-      <a class="clean-preview" href="./">Clean View <span aria-hidden="true">↗</span></a>
-    </div>
-  </aside>
-
   <div class="site-shell">
     <header class="profile">
       <div class="profile-copy">

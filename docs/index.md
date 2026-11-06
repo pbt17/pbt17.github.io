@@ -1,10 +1,5 @@
 ---
 layout: default
-selected_papers:
-  - agnostic-learning-by-imitating
-  - universal-hardness-from-masking-channels
-  - efficient-and-private-property-testing-via-indistinguishability
-  - differentially-private-learning-beyond-the-classical-dimensionality-regime
 ---
 
 I am a Ph.D. student of [Cynthia Dwork](https://dwork.seas.harvard.edu) in Harvard's [Theory of Computation](https://toc.seas.harvard.edu) interested in questions about artificial intelligence related to pseudorandomness, privacy, fairness, and alignment.
